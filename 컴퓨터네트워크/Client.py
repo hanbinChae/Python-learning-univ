@@ -7,8 +7,8 @@ Created on Tue Oct  4 11:22:42 2022
 """
 
 import socket
-IP = '192.168.46.218'
-PORT = 9999
+IP = "192.168.219.102"
+PORT = 6666
 address = (IP,PORT)
 
 client = socket.socket()
