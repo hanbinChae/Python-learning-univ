@@ -1,8 +1,4 @@
 # 선형 리스트 삽입
-from turtle import circle
-from xml.dom.pulldom import ErrorHandler
-
-
 def linear_append(value):
     stack.append(None)
     stack[len(stack)-1] = value
@@ -242,7 +238,7 @@ def _pop():
         data = stack[top]
         stack[top] = None
         return data
-        
+
 
 size = 5
 top = 2
