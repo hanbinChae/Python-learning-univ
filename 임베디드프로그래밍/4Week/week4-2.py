@@ -3,12 +3,14 @@ import cv2
 import numpy as np
 import Jetson.GPIO as GPIO
 import time
+
 dispW=640
 dispH=480
 fps=20
 
 PAN=32
 TILT=33
+
 GPIO.setmode(GPIO.BOARD)
 GPIO.setup(PAN,GPIO.OUT)
 GPIO.setup(TILT,GPIO.OUT)
