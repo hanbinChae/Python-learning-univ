@@ -1,4 +1,4 @@
-#object Recognition with jetson.inference
+# object Recognition with jetson.inference
 
 import jetson.inference
 import jetson.utils

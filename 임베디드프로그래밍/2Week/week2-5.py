@@ -1,4 +1,5 @@
 # 특정 영역만 회색 배경으로 전환
+
 import cv2
 dispW=640
 dispH=320
